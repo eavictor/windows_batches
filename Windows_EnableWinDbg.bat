@@ -14,3 +14,4 @@ bcdedit /set {default} nointegritychecks on
 bcdedit /dbgsettings usb targetname:usb
 bcdedit /set {dbgsettings} busparams %busParam%
 ECHO Debug Target Name : usb (lower case)
+pause
