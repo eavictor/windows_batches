@@ -7,6 +7,9 @@ ECHO USB Controller busparams is %busParam%
 ECHO.
 
 ECHO Enable WinDbg
+bcdedit /bootdebug {bootmgr} on
+bcdedit /bootdebug on
+bcdedit /debug on
 bcdedit /set {default} debug on
 bcdedit /set {default} bootdebug on
 bcdedit /set {default} testsigning on
